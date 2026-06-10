@@ -8,4 +8,4 @@ Public collection of WWDC 2026 session notes. One folder per session; the delive
 
 ## Per-session files
 
-`{num}-{slug}/` contains `transcript.md` (Apple's verbatim transcript), `meta.md` (description, key topics, chapter summary), `code.md` (Code-tab snippets), and `digest.md` (the synthesized summary). Every file's frontmatter carries the source `url` back to developer.apple.com.
+`sessions/{num}-{slug}/` contains `transcript.md` (Apple's verbatim transcript), `meta.md` (description, key topics, chapter summary), `code.md` (Code-tab snippets), and `digest.md` (the synthesized summary). Every file's frontmatter carries the source `url` back to developer.apple.com.

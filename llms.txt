@@ -1,0 +1,120 @@
+# WWDC26 session notes
+
+> LLM-written digests of 100+ WWDC 2026 sessions, plus Apple's verbatim transcripts, session metadata, and Code-tab snippets. One folder per session, named `{number}-{slug}`.
+
+Each folder contains `digest.md` (the summary, linked below), `transcript.md` (Apple's full transcript), `meta.md` (description, key topics, chapter summary), and `code.md` (Code-tab snippets; some sessions have none). The frontmatter of every file carries the URL of its source page on developer.apple.com. Read the digest first; open the transcript for exact wording or full context.
+
+## Sessions
+
+- [102 · Platforms State of the Union](102-platforms-state-of-the-union/digest.md): The Platforms State of the Union: Apple Intelligence and Foundation Models, Liquid Glass refinements, resizable iPhone apps, SwiftUI updates, Swift 6.4, and agentic coding in Xcode 27.
+- [121 · Announcing Apple's next big step for Siri and iPhone](121-announcing-apple-next-big/digest.md): A one-minute movie-trailer teaser for the year's headline Siri and iPhone features.
+- [122 · WWDC26 Platforms State of the Union Recap](122-wwdc26-platforms-state-union/digest.md): A five-minute recap of the Platforms State of the Union: intelligence, platforms, and tools.
+- [201 · Secure your apps with App Attest](201-secure-apps-app-attest/digest.md): How App Attest protects your app and users against fraud.
+- [203 · Read between the strokes with PencilKit](203-read-between-strokes-pencilkit/digest.md): The PencilKit APIs behind handwriting in Notes and Freeform, now open to your apps in the 27 releases.
+- [204 · What's new in WebKit for Safari 27](204-webkit-safari-27/digest.md): What Safari 27 brings to the web platform.
+- [205 · Enhance your presence on the App Store](205-enhance-presence-app-store/digest.md): New ways to use images and video to shape your app's first impression on the App Store.
+- [206 · What's new in managing Apple devices](206-managing-apple-devices/digest.md): What's new across declarative device management, app management, identity integrations, and education.
+- [207 · Deliver workout insights with HealthKit workout zones](207-deliver-workout-insights-healthkit/digest.md): HealthKit workout zones turn biometric data into training guidance on effort and intensity.
+- [209 · What's new in Wallet](209-what-s-new-wallet/digest.md): What's new in Wallet for iOS 27.
+- [210 · What's new in Apple In-App Purchase](210-apple-app-purchase/digest.md): Expanded subscription pricing, offer code API updates, and an improved App Store Connect submission flow.
+- [212 · Rev up your CarPlay app](212-rev-up-carplay-app/digest.md): What's new in CarPlay for iOS 27.
+- [213 · Translate your app using agents in Xcode](213-translate-app-agents-xcode/digest.md): Translate your app's strings in Xcode 27 using coding agents.
+- [215 · Get started with the HTML Model Element](215-started-html-model-element/digest.md): The HTML model element adds 3D content to a page the way img adds images.
+- [216 · Create web extensions for Safari](216-web-extensions-safari/digest.md): Safari web extensions built with HTML, CSS, and JavaScript run across iOS, iPadOS, macOS, and visionOS from one project.
+- [219 · Enhance the accessibility of your reading app](219-enhance-accessibility-reading-app/digest.md): Making long-form text and reading apps accessible across Apple platforms.
+- [220 · Refine accessibility for custom controls](220-refine-accessibility-custom-controls/digest.md): Making custom controls and their gestures accessible.
+- [221 · Prepare your tvOS apps for Dynamic Type](221-prepare-tvos-apps-dynamic/digest.md): System-wide Large Text support on tvOS 27 and how apps scale text for it.
+- [222 · Meet the new MetricKit](222-meet-new-metrickit/digest.md): MetricKit's new API for monitoring real-world app performance on real devices.
+- [223 · Live Activities essentials](223-live-activities-essentials/digest.md): Live Activities essentials: data model, presentations, updates, and every surface from Lock Screen to CarPlay.
+- [224 · Expand the capabilities of your Virtualization app](224-expand-capabilities-virtualization-app/digest.md): New Virtualization framework APIs: macOS guest provisioning, USB accessory passthrough, advanced networking, DiskImageKit layered disk images, and custom Virtio devices.
+- [226 · Create live communication experiences](226-live-communication-experiences/digest.md): LiveCommunicationKit, the modern way to build call and live-conversation experiences that integrate with the system.
+- [227 · Create UI prototypes using agents in Xcode](227-ui-prototypes-agents-xcode/digest.md): Prototyping UI with Xcode's coding agents and Swift previews.
+- [230 · What's new in assessment on macOS](230-assessment-macos/digest.md): Enhancements to the Automatic Assessment Configuration framework in macOS 27.
+- [232 · Run local agentic AI on the Mac using MLX](232-run-local-agentic-ai/digest.md): Build and run agentic AI workflows on a Mac with MLX, no cloud or API keys required.
+- [233 · Explore distributed inference and training with MLX](233-distributed-inference-training-mlx/digest.md): Distributed inference and training with MLX when one machine runs out of memory or compute.
+- [234 · Design immersive environments for visionOS apps and the spatial web](234-immersive-environments-visionos-apps/digest.md): Designing photo-realistic immersive environments for visionOS apps and the spatial web.
+- [237 · What's new in image understanding](237-image-understanding/digest.md): New image understanding across Vision and Foundation Models: tap-to-segment, image inputs for LLMs, image-based tool calling, and Vision on watchOS.
+- [240 · Build intelligent Siri experiences with App Schemas](240-intelligent-siri-experiences-app/digest.md): How App Intents and App Schemas bring your app to a more capable, contextual Siri.
+- [241 · What's new in the Foundation Models framework](241-foundation-models/digest.md): The year's Foundation Models framework updates, including image input and server models.
+- [242 · Build agentic app experiences with the Foundation Models framework](242-agentic-app-experiences-foundation/digest.md): Dynamic Profiles, the declarative agentic API in the Foundation Models framework.
+- [243 · Debug and profile agentic app experiences with Instruments](243-debug-profile-agentic-app/digest.md): Debug and profile agentic features with the Foundation Models template in Instruments.
+- [246 · LLM search using Core Spotlight](246-llm-search-core-spotlight/digest.md): Conversational search by exposing your app's content to a language model through Core Spotlight.
+- [250 · Principles of great design](250-principles-great/digest.md): A non-technical talk on what great design means on Apple platforms.
+- [251 · Communicate your brand identity on iOS](251-communicate-brand-identity-ios/digest.md): Balancing brand expression with the familiar paradigms of iOS.
+- [252 · Design no-code games with Reality Composer Pro 3](252-no-code-games-reality/digest.md): Designing and building games in Reality Composer Pro 3 without writing code.
+- [253 · Meet the Music Understanding framework](253-music-understanding-framework/digest.md): The Music Understanding framework brings on-device, offline musical intelligence to Apple platforms.
+- [254 · Integrate MusicKit into your app](254-integrate-musickit-app/digest.md): An introduction to MusicKit, building a music-enhanced workout app with Swift concurrency and SwiftUI.
+- [256 · Discover generated subtitles and subtitle styles](256-generated-subtitles-subtitle-styles/digest.md): Apple's AI-generated subtitles, created live and on-device as media plays, plus subtitle styles.
+- [258 · What's new in Xcode 27](258-xcode-27/digest.md): A guided tour of Xcode 27 across the full app lifecycle.
+- [259 · Xcode, agents, and you](259-xcode-agents/digest.md): An overview of coding agents in Xcode 27.
+- [260 · Get the most out of Device Hub](260-most-out-device-hub/digest.md): Device Hub, the new home for physical devices and simulators alongside Xcode 27.
+- [261 · Build, deliver, and automate with Xcode Cloud](261-deliver-automate-xcode-cloud/digest.md): Building, delivering, and automating with Xcode Cloud.
+- [262 · What's new in Swift](262-what-s-new-swift/digest.md): Swift 6.3 and 6.4: language improvements, library updates, C and Java interop, WebAssembly, embedded, and performance tuning.
+- [265 · Build real-time apps and services with gRPC and Swift](265-real-time-apps-services/digest.md): Real-time apps and services with gRPC Swift.
+- [267 · Migrate to Swift Testing](267-migrate-swift-testing/digest.md): Migrating from XCTest to Swift Testing with the interoperability support in Xcode 27.
+- [268 · Profile, fix, and verify: Improve app responsiveness with Instruments](268-profile-fix-verify-improve/digest.md): Instruments 27's mental model and tools for triaging app responsiveness.
+- [269 · What's new in SwiftUI](269-what-s-new-swiftui/digest.md): The annual SwiftUI roundup for the 27 releases.
+- [271 · Code-along: Build powerful drag and drop in SwiftUI](271-code-along-powerful-drag/digest.md): SwiftUI drag and drop gains reordering, Drag Container multi-item drags, and move vs. copy configuration.
+- [272 · Use SwiftUI with AppKit and UIKit](272-swiftui-appkit-uikit/digest.md): Adopting SwiftUI incrementally inside existing AppKit and UIKit apps.
+- [274 · What's new in SwiftData](274-what-s-new-swiftdata/digest.md): What's new in SwiftData for the 27 releases.
+- [275 · Code-along: Add persistence with SwiftData](275-code-along-add-persistence/digest.md): A code-along that takes a SwiftUI travel app from in-memory state to a persistent SwiftData layer.
+- [277 · WidgetKit foundations](277-widgetkit-foundations/digest.md): WidgetKit fundamentals for surfacing your app's content across the system.
+- [278 · Modernize your UIKit app](278-modernize-uikit-app/digest.md): iOS 27 makes iPhone apps resizable; the requirements and APIs to modernize a UIKit app.
+- [279 · Explore advances in RealityKit](279-advances-realitykit/digest.md): The latest advances in RealityKit across visionOS, iOS, iPadOS, macOS, and tvOS.
+- [280 · Iterate your spatial scenes faster with Reality Composer Pro 3](280-iterate-spatial-scenes-faster/digest.md): Reality Composer Pro 3, rebuilt for fast iterative spatial workflows and now a standalone download.
+- [281 · Extend Reality Composer Pro 3 functionality with Xcode](281-extend-reality-composer-pro/digest.md): Extending Reality Composer Pro 3 with plug-ins written in Xcode.
+- [282 · Discover the Spatial Preview framework](282-spatial-preview-framework/digest.md): The Spatial Preview framework extends a Mac app's content into visionOS over Mac Virtual Display.
+- [283 · Explore enhancements to visionOS object tracking](283-enhancements-visionos-object-tracking/digest.md): New object tracking and spatial accessory capabilities in visionOS 27.
+- [284 · Collaborate on structured 3D models in visionOS](284-collaborate-structured-3d-models/digest.md): Collaborative spatial experiences on Vision Pro for complex 3D assemblies.
+- [285 · Discover USDKit and what's new in OpenUSD](285-usdkit-openusd/digest.md): USDKit and OpenUSD updates for USD, the scene representation behind Apple's spatial experiences.
+- [286 · Use foveated streaming to bring immersive content to visionOS](286-foveated-streaming-bring-immersive/digest.md): Foveated Streaming lets Vision Pro stream immersive OpenXR content rendered on an external device such as a PC.
+- [287 · Build next-generation experiences with visionOS 27](287-next-generation-experiences-visionos/digest.md): A platform-wide tour of what's new in visionOS 27.
+- [289 · Modernize your AppKit app](289-modernize-appkit-app/digest.md): Modernizing an AppKit app to feel at home with the rest of the Mac.
+- [290 · Craft clear names for features and labels in your app](290-craft-clear-names-features/digest.md): Naming features, menus, settings, and tab bars so people understand your app.
+- [292 · Design intuitive search experiences](292-intuitive-search-experiences/digest.md): Designing an intuitive search experience.
+- [295 · Validate your App Intents adoption with AppIntentsTesting](295-validate-app-intents-adoption/digest.md): AppIntentsTesting, a new framework for testing the App Intents behind Siri, Shortcuts, Spotlight, and Widgets.
+- [297 · Best practices for integrating visual intelligence in your app](297-best-practices-integrating-visual/digest.md): A step-by-step guide to integrating your app with Visual Intelligence, built around a music-discovery sample.
+- [298 · Meet the Evaluations framework](298-evaluations-framework/digest.md): The Evaluations framework measures the quality of your intelligent features.
+- [299 · Create robust evaluations for agentic apps](299-robust-evaluations-agentic-apps/digest.md): Advanced Evaluations framework features for assessing agentic apps.
+- [303 · Build a responsive camera app that launches quickly](303-responsive-camera-app-that/digest.md): Making a camera app launch fast and keeping capture smooth and reliable.
+- [304 · Implement high resolution photo capture](304-implement-high-resolution-photo/digest.md): High-resolution photo capture (12, 24, 48 MP) with AVFoundation and its processing-time tradeoffs.
+- [305 · Enhance RAW image processing with Core Image](305-enhance-raw-image-processing/digest.md): Core Image enhancements for RAW image processing.
+- [309 · Explore Retention Messaging in App Store Connect](309-retention-messaging-app-store/digest.md): Retention Messaging reaches subscribers at the moment they try to cancel.
+- [310 · What's new in Shortcuts](310-what-s-new-shortcuts/digest.md): What's new in Shortcuts across Siri, Control Center, and the Action Button.
+- [312 · Meet the Now Playing framework](312-now-playing-framework/digest.md): The NowPlaying framework surfaces playing media on the Lock Screen, Control Center, Dynamic Island, StandBy, and CarPlay.
+- [314 · Learn CSS Grid Lanes](314-learn-css-grid-lanes/digest.md): CSS Grid Lanes, a new layout mode for masonry-style designs.
+- [315 · Rediscover the HTML select element](315-rediscover-html-select-element/digest.md): Customizable Select: styling the HTML select element with CSS while keeping built-in accessibility.
+- [319 · Build with the new Apple Foundation Model on Private Cloud Compute](319-apple-foundation-model-private/digest.md): Access a powerful new server LLM through Private Cloud Compute.
+- [320 · Explore immersive website environments in visionOS](320-immersive-website-environments-visionos/digest.md): A preview of the immersive API for websites in visionOS Safari.
+- [321 · Dive into lazy stacks and scrolling with SwiftUI](321-dive-lazy-stacks-scrolling/digest.md): How LazyVStack and LazyHStack work inside a ScrollView.
+- [322 · Compose advanced graphics effects with SwiftUI](322-compose-advanced-graphics-effects/digest.md): Advanced SwiftUI graphics as a creative pipeline of composable stages.
+- [324 · Meet Core AI](324-core-ai/digest.md): Core AI, the inference framework behind on-device Apple Intelligence, opened to developers.
+- [325 · Dive into Core AI model authoring and optimization](325-dive-core-ai-model/digest.md): Core AI's Python ecosystem for authoring and optimizing models for Apple Silicon.
+- [326 · Integrate on-device AI models into your app using Core AI](326-integrate-device-ai-models/digest.md): A walkthrough of building a language-learning app on Core AI's on-device models.
+- [328 · Explore numerical computing in Swift with MLX](328-numerical-computing-swift-mlx/digest.md): Numerical computing in Swift with MLX Swift.
+- [330 · Optimize custom machine learning operations with Metal tensors](330-optimize-custom-machine-learning/digest.md): Metal tensors and the TensorOps library for custom ML kernels on Apple Silicon.
+- [334 · Build AI-powered scripts with the fm CLI and Python SDK](334-ai-powered-scripts-fm/digest.md): Apple Foundation Models outside Swift: the fm command line tool and the Python SDK.
+- [335 · Improve your prompts by hill-climbing with Evaluations](335-improve-prompts-by-hill/digest.md): Improving prompts by hill-climbing with the Evaluations framework, one controlled change at a time.
+- [338 · Build live production tools for Apple Immersive Video](338-live-production-tools-apple/digest.md): Live broadcast production fundamentals and what changes for Apple Immersive Video.
+- [339 · Bring an LLM provider to the Foundation Models framework](339-bring-llm-provider-foundation/digest.md): The Foundation Models framework now accepts nearly any LLM provider, local or server.
+- [341 · Support the Center Stage front camera in your iOS app](341-support-center-stage-front/digest.md): Supporting the Center Stage front camera on the iPhone 17 lineup.
+- [343 · Explore advanced App Intents features for Siri and Apple Intelligence](343-advanced-app-intents-features/digest.md): Advanced App Intents techniques for polished Siri and Apple Intelligence experiences.
+- [344 · Code-along: Make your app available to Siri](344-code-along-app-available/digest.md): A code-along that makes a SwiftUI calendar app available to Siri with App Intents and App Schemas.
+- [345 · Discover new capabilities in the App Intents framework](345-capabilities-app-intents-framework/digest.md): The year's App Intents updates across Siri, Shortcuts, Spotlight, Widgets, and Apple Intelligence.
+- [347 · Secure your app: mitigate risks to agentic features](347-secure-app-mitigate-risks/digest.md): Security risks agentic features introduce, and how to mitigate them.
+- [356 · Bringing Cyberpunk 2077 to Mac](356-bringing-cyberpunk-2077-mac/digest.md): How CD PROJEKT RED brought Cyberpunk 2077: Ultimate Edition to Apple silicon Macs.
+- [357 · Speedrun your game port with agentic coding](357-speedrun-game-port-agentic/digest.md): Game Porting Toolkit 4's agentic skills and porting assistant speed up game ports.
+- [358 · Make your game great with touch](358-game-great-touch/digest.md): Designing and implementing touch controls for games with the Touch Controller framework.
+- [359 · Build real-time neural rendering pipelines with Metal](359-real-time-neural-rendering/digest.md): Real-time neural rendering pipelines with Metal 4.
+- [369 · Find your accessory with Bluetooth Channel Sounding](369-find-accessory-bluetooth-channel/digest.md): Finding nearby Bluetooth accessories with Bluetooth Channel Sounding.
+- [370 · Elevate your app's text experience with TextKit](370-elevate-app-text-experience/digest.md): TextKit, the next-generation text engine behind SwiftUI, UIKit, and AppKit.
+- [372 · Unwrap PaperKit](372-unwrap-paperkit/digest.md): PaperKit, the canvas engine behind Notes, Preview markup, and Freeform.
+- [375 · Create high quality images using Image Playground](375-high-quality-images-image/digest.md): The ImagePlayground framework brings image generation into your app on Apple Intelligence devices.
+- [378 · Unlock in-game content with StoreKit and Background Assets](378-unlock-game-content-storekit/digest.md): Managed Background Assets up to 200 GB, new Unity plug-ins, and a stronger games presence on the App Store.
+- [379 · Meet Trust Insights](379-trust-insights/digest.md): Trust Insights helps your app detect social engineering: coercion, scams, and real-time coaching attacks.
+- [388 · Find and fix performance issues in your Metal games](388-find-fix-performance-issues/digest.md): Finding and fixing frame-rate problems in Metal games.
+- [389 · Discover container machines](389-container-machines/digest.md): Container machines: a fast, persistent Linux environment built on the Containerization framework.
+- [391 · Offer subscriptions to groups and organizations](391-offer-subscriptions-groups-organizations/digest.md): Selling auto-renewable subscriptions to groups and organizations.
+- [393 · Supercharge your spatial workflows with Reality Composer Pro 3](393-supercharge-spatial-workflows-reality/digest.md): Reality Composer Pro 3's node-based graphs (animation, behavior, script, navigation, compute, shader) building an interactive scene without code.
+- [394 · Get ready for WWDC26](394-ready-wwdc26/digest.md): A promotional preview of WWDC26 and how to prepare for the week.
+- [397 · Dub Dub Daily: Day 2](397-dub-dub-daily-day/digest.md): The day-two episode of WWDC26's daily recap show, with SOTU MC Josh Schaffer.

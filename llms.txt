@@ -118,3 +118,5 @@ Each folder contains `digest.md` (the summary, linked below), `transcript.md` (A
 - [393 · Supercharge your spatial workflows with Reality Composer Pro 3](sessions/393-supercharge-spatial-workflows-reality/digest.md): Reality Composer Pro 3's node-based graphs (animation, behavior, script, navigation, compute, shader) building an interactive scene without code.
 - [394 · Get ready for WWDC26](sessions/394-ready-wwdc26/digest.md): A promotional preview of WWDC26 and how to prepare for the week.
 - [397 · Dub Dub Daily: Day 2](sessions/397-dub-dub-daily-day/digest.md): The day-two episode of WWDC26's daily recap show, with SOTU MC Josh Schaffer.
+- [398 · Dub Dub Daily: Day 3](sessions/398-dub-dub-daily-day-3/digest.md): The day-three episode of WWDC26's daily show, focused on Apple Intelligence.
+- [399 · Dub Dub Daily: Day 4](sessions/399-dub-dub-daily-day-4/digest.md): The day-four episode of WWDC26's daily show, focused on Xcode and the developer toolchain.

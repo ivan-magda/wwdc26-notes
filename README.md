@@ -35,6 +35,8 @@ The topic groups are mine, not Apple's.
 - [121 · Announcing Apple's next big step for Siri and iPhone](sessions/121-announcing-apple-next-big/digest.md)
 - [394 · Get ready for WWDC26](sessions/394-ready-wwdc26/digest.md)
 - [397 · Dub Dub Daily: Day 2](sessions/397-dub-dub-daily-day/digest.md)
+- [398 · Dub Dub Daily: Day 3](sessions/398-dub-dub-daily-day-3/digest.md)
+- [399 · Dub Dub Daily: Day 4](sessions/399-dub-dub-daily-day-4/digest.md)
 
 ### Apple Intelligence and Foundation Models
 

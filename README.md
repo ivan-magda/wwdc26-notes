@@ -1,6 +1,6 @@
 # WWDC26 session notes
 
-Notes on 100+ sessions of WWDC 2026 (June 8–10, more to come). One folder per session: Apple's full transcript, the session metadata, the code from the session's Code tab, and an LLM-written digest that condenses them into a few minutes of reading.
+Notes on 100+ sessions of WWDC 2026 (June 8–12). One folder per session: Apple's full transcript, the session metadata, the code from the session's Code tab, and an LLM-written digest that condenses them into a few minutes of reading.
 
 Start with a session's `digest.md`; open `transcript.md` when you need the speaker's exact wording.
 

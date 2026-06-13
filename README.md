@@ -30,6 +30,7 @@ The topic groups are mine, not Apple's.
 
 ### Keynote and event videos
 
+- [101 · WWDC26 Keynote](sessions/101-keynote/digest.md)
 - [102 · Platforms State of the Union](sessions/102-platforms-state-of-the-union/digest.md)
 - [122 · WWDC26 Platforms State of the Union Recap](sessions/122-wwdc26-platforms-state-union/digest.md)
 - [121 · Announcing Apple's next big step for Siri and iPhone](sessions/121-announcing-apple-next-big/digest.md)
@@ -37,6 +38,7 @@ The topic groups are mine, not Apple's.
 - [397 · Dub Dub Daily: Day 2](sessions/397-dub-dub-daily-day/digest.md)
 - [398 · Dub Dub Daily: Day 3](sessions/398-dub-dub-daily-day-3/digest.md)
 - [399 · Dub Dub Daily: Day 4](sessions/399-dub-dub-daily-day-4/digest.md)
+- [400 · Dub Dub Daily: Day 5](sessions/400-dub-dub-daily-day-5/digest.md)
 
 ### Apple Intelligence and Foundation Models
 
@@ -192,3 +194,24 @@ The topic groups are mine, not Apple's.
 - [219 · Enhance the accessibility of your reading app](sessions/219-enhance-accessibility-reading-app/digest.md)
 - [220 · Refine accessibility for custom controls](sessions/220-refine-accessibility-custom-controls/digest.md)
 - [221 · Prepare your tvOS apps for Dynamic Type](sessions/221-prepare-tvos-apps-dynamic/digest.md)
+
+### Group labs
+
+These are live developer Q&A sessions with Apple engineering panels.
+
+- [8001 · Swift Group Lab](sessions/8001-swift-group-lab/digest.md)
+- [8002 · SwiftUI for Beginners Group Lab](sessions/8002-swiftui-beginners-group-lab/digest.md)
+- [8003 · Power and Performance Group Lab](sessions/8003-power-performance-group-lab/digest.md)
+- [8004 · visionOS Group Lab](sessions/8004-visionos-group-lab/digest.md)
+- [8005 · Accessibility Technologies Group Lab](sessions/8005-accessibility-technologies-group-lab/digest.md)
+- [8006 · SwiftUI Group Lab](sessions/8006-swiftui-group-lab/digest.md)
+- [8007 · Coding Intelligence for Beginners Group Lab](sessions/8007-coding-intelligence-beginners-group/digest.md)
+- [8009 · Privacy and Security Group Lab](sessions/8009-privacy-security-group-lab/digest.md)
+- [8010 · App Store Connect Group Lab](sessions/8010-app-store-connect-group/digest.md)
+- [8011 · Apple Intelligence Group Lab](sessions/8011-apple-intelligence-group-lab/digest.md)
+- [8013 · Xcode Tips and Tricks Group Lab](sessions/8013-xcode-tips-tricks-group/digest.md)
+- [8014 · watchOS Group Lab](sessions/8014-watchos-group-lab/digest.md)
+- [8015 · Safari and Web Technologies Group Lab](sessions/8015-safari-web-technologies-group/digest.md)
+- [8018 · Camera and Photo Technologies Group Lab](sessions/8018-camera-photo-technologies-group/digest.md)
+- [8120 · SwiftUI Group Lab ("SwiftUI After Dark")](sessions/8120-swiftui-group-lab/digest.md)
+- [8121 · Coding Intelligence, Machine Learning & AI Group Lab](sessions/8121-coding-intelligence-machine-learning/digest.md)

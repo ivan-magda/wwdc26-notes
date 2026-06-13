@@ -6,6 +6,7 @@ Each folder contains `digest.md` (the summary, linked below), `transcript.md` (A
 
 ## Sessions
 
+- [101 · WWDC26 Keynote](sessions/101-keynote/digest.md): The ~76-minute keynote: a software-only year built around responsiveness refinements, child safety, and a re-architected Apple Intelligence (built with Google Gemini) plus an all-new Siri AI; confirms iOS 27 and macOS GoldenGate.
 - [102 · Platforms State of the Union](sessions/102-platforms-state-of-the-union/digest.md): The Platforms State of the Union: Apple Intelligence and Foundation Models, Liquid Glass refinements, resizable iPhone apps, SwiftUI updates, Swift 6.4, and agentic coding in Xcode 27.
 - [121 · Announcing Apple's next big step for Siri and iPhone](sessions/121-announcing-apple-next-big/digest.md): A one-minute movie-trailer teaser for the year's headline Siri and iPhone features.
 - [122 · WWDC26 Platforms State of the Union Recap](sessions/122-wwdc26-platforms-state-union/digest.md): A five-minute recap of the Platforms State of the Union: intelligence, platforms, and tools.
@@ -120,3 +121,20 @@ Each folder contains `digest.md` (the summary, linked below), `transcript.md` (A
 - [397 · Dub Dub Daily: Day 2](sessions/397-dub-dub-daily-day/digest.md): The day-two episode of WWDC26's daily recap show, with SOTU MC Josh Schaffer.
 - [398 · Dub Dub Daily: Day 3](sessions/398-dub-dub-daily-day-3/digest.md): The day-three episode of WWDC26's daily show, focused on Apple Intelligence.
 - [399 · Dub Dub Daily: Day 4](sessions/399-dub-dub-daily-day-4/digest.md): The day-four episode of WWDC26's daily show, focused on Xcode and the developer toolchain.
+- [400 · Dub Dub Daily: Day 5](sessions/400-dub-dub-daily-day-5/digest.md): The day-five and final episode of WWDC26's daily show, closing the week with Holly Borla on Swift 6.4.
+- [8001 · Swift Group Lab](sessions/8001-swift-group-lab/digest.md): A live Swift-team Q&A: profile before you optimize, lean on the compiler instead of escape hatches, and engage the open-source project on the forums and GitHub.
+- [8002 · SwiftUI for Beginners Group Lab](sessions/8002-swiftui-beginners-group-lab/digest.md): A beginners' SwiftUI Q&A: treat agentic Xcode and LLMs as a tutor rather than a code vending machine, with advice on how to learn the framework.
+- [8003 · Power and Performance Group Lab](sessions/8003-power-performance-group-lab/digest.md): A performance, power, MetricKit, and Instruments Q&A: measure first, pair local profiling with field telemetry, and trust Apple's own measurement plumbing.
+- [8004 · visionOS Group Lab](sessions/8004-visionos-group-lab/digest.md): A visionOS Q&A: camera-access myths, object tracking from 5 to 30 fps, foveated streaming, Gaussian splats versus OpenUSD, and debugging inside an immersive space.
+- [8005 · Accessibility Technologies Group Lab](sessions/8005-accessibility-technologies-group-lab/digest.md): An accessibility Q&A with Apple's team: test VoiceOver first, design accessibility in from day one, and learn from their habits as VoiceOver and low-vision users.
+- [8006 · SwiftUI Group Lab](sessions/8006-swiftui-group-lab/digest.md): A SwiftUI Q&A on the update model: your view body is a cheap description, and performance comes from scoping what gets invalidated.
+- [8007 · Coding Intelligence for Beginners Group Lab](sessions/8007-coding-intelligence-beginners-group/digest.md): A beginner-friendly Q&A on agentic coding in Xcode 27: ask the agent, use Git, trust but verify, and file feedback.
+- [8009 · Privacy and Security Group Lab](sessions/8009-privacy-security-group-lab/digest.md): A privacy and security Q&A: the two work hand in hand; lean on platform-native, secure-and-private-by-default frameworks and collect as little as you can.
+- [8010 · App Store Connect Group Lab](sessions/8010-app-store-connect-group/digest.md): An App Store Connect and App Store Q&A: test on a real device before review, supply demo credentials, keep API keys server-side, and use TestFlight.
+- [8011 · Apple Intelligence Group Lab](sessions/8011-apple-intelligence-group-lab/digest.md): An Apple Intelligence Q&A spanning App Schemas for the new Siri, the Foundation Models framework (on-device and Private Cloud Compute), and the Evaluations framework.
+- [8013 · Xcode Tips and Tricks Group Lab](sessions/8013-xcode-tips-tricks-group/digest.md): An Xcode-team Q&A trading the keyboard shortcuts, hidden menus, and project habits they use daily; use source control and file feedback with a concrete use case.
+- [8014 · watchOS Group Lab](sessions/8014-watchos-group-lab/digest.md): A watchOS Q&A on workouts, frameworks, widgets and live activities, and system spaces, with Private Cloud Compute versus on-device clarifications.
+- [8015 · Safari and Web Technologies Group Lab](sessions/8015-safari-web-technologies-group/digest.md): A WebKit and Safari Q&A: a Safari 27 preview, the select and model elements, Spatial CSS, WebGPU, web extensions, and how the standards process sets priorities.
+- [8018 · Camera and Photo Technologies Group Lab](sessions/8018-camera-photo-technologies-group/digest.md): A Camera and Photos Q&A: which framework to reach for, what the APIs guarantee, and deliberate limitations versus bugs.
+- [8120 · SwiftUI Group Lab](sessions/8120-swiftui-group-lab/digest.md): A second SwiftUI Q&A nicknamed "SwiftUI After Dark": naming rationale, performance mental models, and candid limitations, with no slides.
+- [8121 · Coding Intelligence, Machine Learning & AI Group Lab](sessions/8121-coding-intelligence-machine-learning/digest.md): An AI-stack Q&A across Xcode, Foundation Models, Evaluations, Core AI, and MLX: start at the top of the stack and drop down only when you need to.

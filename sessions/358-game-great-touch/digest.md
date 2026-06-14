@@ -31,8 +31,8 @@ game:
    sprint halo), and collapse multi-finger combos (QTEs, aim-to-release throws) into
    single intuitive controls.
 
-The throughline: **don't port the controller — redesign for the thumb.** A direct 1:1
-mapping clutters the screen; thoughtful touch design makes the game "feel brand new."
+The throughline: **redesign for the thumb instead of porting the controller.** A direct
+1:1 mapping clutters the screen; thoughtful touch design makes the game "feel brand new."
 
 ---
 

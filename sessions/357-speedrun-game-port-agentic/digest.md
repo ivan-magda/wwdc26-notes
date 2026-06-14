@@ -214,13 +214,13 @@ The engine declares 5 root parameters; the HLSL shader declares 4. Reflection fr
 the converter resolves the real layout; carrying over the engine's count shifts the
 sampler table to the wrong offset.
 
-This produces **first light** — but with wrong lighting and stretched wall
+This produces **first light**, but with wrong lighting and stretched wall
 textures. SSAO is visibly working on the drapes, so it's close but broken.
 
 ## 5. Autonomous GPU debugging (macOS 27)
 
-Normally you'd capture a frame in Xcode and diagnose by hand — something an agent
-couldn't do on its own. **macOS 27 introduces two command-line tools** for fully
+Normally you'd capture a frame in Xcode and diagnose by hand. An agent couldn't do
+that on its own. **macOS 27 introduces two command-line tools** for fully
 autonomous agent workflows:
 
 - **`gpucapture`** — capture a GPU frame

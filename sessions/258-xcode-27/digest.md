@@ -26,11 +26,11 @@ covers shipping and post-launch. Headline themes:
    touching code, plus a sidebar tracking parallel conversations.
 4. **Device Hub** — one window to run, inspect, and evaluate apps across simulators *and*
    physical devices, including accessibility settings and iPhone Mirroring resize testing.
-5. **Post-launch tooling levels up** — agent-driven localization, a redesigned Organizer
+5. **Post-launch tooling expands** — agent-driven localization, a redesigned Organizer
    (new storage + hitches metrics, Metric Goals, agent-generated fix recommendations),
    Top Functions in Instruments, and a much shorter Xcode Cloud onboarding.
 
-The throughline: agents and the workspace are woven into every stage rather than bolted on.
+The throughline: agents and the workspace run through every stage of the lifecycle.
 
 ---
 

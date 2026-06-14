@@ -27,7 +27,7 @@ Three headline points:
 2. **Four view types.** Message, message + image, message + offer — plus a **switch
    plan** view (real-time only) that proposes a different plan in the same subscription
    group instead of canceling.
-3. **It moves the needle.** Apple reports an average save-rate lift of **+1.4 points
+3. **It improves save rates.** Apple reports an average save-rate lift of **+1.4 points
    (~82%)**, and **+5.5 points (~223%)** for promotional-offer messages — with the
    caveat of "varying results across developers."
 

@@ -11,8 +11,8 @@ note: Group lab — no Apple transcript/Summary/Code tab. Transcript machine-gen
 # WWDC26 · 8009 — Privacy and Security Group Lab
 
 > A 62-minute live developer Q&A with a six-person privacy and security panel from
-> Apple. Not a feature talk: it's the unscripted layer under the WWDC26 privacy and
-> security sessions. The throughline is consistent and repeated: privacy and security
+> Apple. A live, unscripted layer sitting under the WWDC26 privacy and
+> security feature sessions. The throughline is consistent and repeated: privacy and security
 > work hand in hand, lean on platform-native frameworks that are secure and private by
 > default, collect as little data as you can, and be transparent with users about what
 > you do collect.

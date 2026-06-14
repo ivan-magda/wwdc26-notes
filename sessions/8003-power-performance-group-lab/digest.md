@@ -276,7 +276,7 @@ types available only on the new API**, given as the incentive to migrate.
   large. Logging 1,000-vs-1,001 "incurs a lot of cost just to record that."
 - **Simulator profiling is worthless for performance** — it runs on your Mac, so the
   simulator model makes no difference. Always profile on a physical device.
-- **The real launch-time bug is main-thread *waiting*, not background work itself.** Apps
+- **The launch-time bug is the main thread *waiting* on background work it spun off.** Apps
   spin off background work then block the first frame on it, freezing the whole app.
 - **Apple Intelligence rarely starves your background tasks** because the AI runs on the
   Neural Engine or in Private Cloud Compute, leaving CPU free for concurrent app work — a

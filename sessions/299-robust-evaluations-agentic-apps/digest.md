@@ -200,7 +200,7 @@ Intelligence features often take many behind-the-scenes steps, each a tool call,
 output. **Tools** add structure to model workflows, operate on real data with your custom
 business logic, and can mirror user-invokable functionality, new intelligence-only logic, or
 both. The trap: **a model can return a reasonable-sounding answer without ever calling the
-right tool** — the destination looks correct while the journey was wrong.
+right tool**, so the output can be right for the wrong reason.
 
 Three challenges tool evals address:
 

@@ -11,12 +11,11 @@ note: Group lab — no Apple transcript/Summary/Code tab. Transcript machine-gen
 # WWDC26 · 8121 — Coding Intelligence, Machine Learning & AI Group Lab
 
 > A ~62-minute live developer Q&A with a six-person panel spanning Xcode, Foundation
-> Models, the evaluations framework, Core AI, and MLX. Not a feature talk: it's the
-> connective tissue under the WWDC26 AI sessions. The lab keeps returning to one
-> recommendation: start at the top of the stack with Foundation Models and the
-> on-device system model, use the **evaluations framework** to prove whether it covers
-> your case, and only drop down to Core AI / MLX or out to PCC / a third-party model
-> when you actually need to.
+> Models, the evaluations framework, Core AI, and MLX. It maps how the WWDC26 AI
+> sessions fit together. The lab keeps returning to one recommendation: start at the
+> top of the stack with Foundation Models and the on-device system model, use the
+> **evaluations framework** to prove whether it covers your case, and only drop down to
+> Core AI / MLX or out to PCC / a third-party model when you actually need to.
 
 ## TL;DR
 

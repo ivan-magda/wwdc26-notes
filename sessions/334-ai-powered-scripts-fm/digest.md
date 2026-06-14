@@ -198,7 +198,7 @@ pass the class as the `generating=` argument to `respond` to get a typed object 
 
 ## 5. Case study — an evaluation pipeline in Python
 
-The real payoff of being in Python: tap the open-source ML/data ecosystem. Feature
+Being in Python lets the pipeline tap the open-source ML/data ecosystem. Feature
 under test: predict what a user would add to their cart from previous orders, while
 accounting for items already in the cart. Three implementations differ only by prompt:
 

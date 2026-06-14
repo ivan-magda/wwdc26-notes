@@ -12,7 +12,7 @@ compiled: 2026-06-10
 
 ## TL;DR
 
-Naming is design, not decoration. The name you give a feature, label, menu, or
+Naming is a design decision. The name you give a feature, label, menu, or
 setting is "as fundamental to the experience of your app as the layout,
 interactions, and visual scheme." The session hands you three reusable tools:
 
@@ -131,7 +131,8 @@ An algorithmic photo-grouping feature that surfaces moments that matter. The per
 on the other end "isn't thinking about algorithms — they're looking for a memory."
 **Memories** wins because it **meets them there** in a way a technical label can't;
 it fits the app's tone and the relationship people have with their photos. Still
-straightforward, but **the clarity comes from emotion, not explanation.**
+straightforward, but **Memories reads clearly because it names the emotional
+payoff rather than the mechanism.**
 
 ## 4. Evaluation — does yours work, and why? (10:34)
 

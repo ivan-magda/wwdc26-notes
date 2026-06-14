@@ -219,10 +219,10 @@ WWDC25.)
 ## 4. System blocking (20:29)
 
 The last hang is the stutter on **save**, found via the "Write to File" signpost.
-Checking CPU usage this time: **~20%, low**. Low CPU is deceptive — it doesn't mean
-the code is slow, it means the **thread stopped running**, blocked on a system
-resource. The right template is **System Trace**, built to show *when and why* the OS
-pauses your app.
+Checking CPU usage this time: **~20%, low**. Low CPU here means the **thread stopped
+running**, blocked on a system resource rather than churning through slow code. The
+right template is **System Trace**, built to show *when and why* the OS pauses your
+app.
 
 ### Thread state model
 

@@ -115,7 +115,7 @@ What surfaced from running real content through the UI:
   with an **expand control** for the full list.
 - Real book covers inspired a new idea: adapt the detail page's colors to the cover.
 
-> The point isn't the specific fixes — it's that **real content reveals the problems**
+> The specific fixes matter less than the lesson: **real content reveals the problems**
 > a blank template hides. Still: nothing beats real-world use; this is a head start on
 > the feedback stage.
 

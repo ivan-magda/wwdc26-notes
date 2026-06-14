@@ -13,10 +13,10 @@ compiled: 2026-06-10
 ## TL;DR
 
 Reading long-form text is a fundamentally different accessibility problem than
-navigating UI: it is about **moving fluidly through text**, not jumping between
-controls. The session frames the work as three goals and walks a Chicago travel
-guide app from "uses system text views" to "renders scanned handwritten pages
-but stays fully accessible."
+navigating UI. It is about **moving fluidly through running text** rather than
+jumping between controls. The session frames the work as three goals and walks
+a Chicago travel guide app from "uses system text views" to "renders scanned
+handwritten pages but stays fully accessible."
 
 1. **Reach for system text views first.** `UITextView`, SwiftUI `TextEditor` and
    selectable `Text`, and AppKit `NSTextView` already adopt **`UITextInput`**, so

@@ -338,5 +338,5 @@ class LocalWeatherView: NSView {
 - Find `mouseDown:` overrides → replace with view APIs, control events, or gesture recognizers.
 - Prioritize user intent over tracking loops.
 - Make the app work as well from the keyboard as from the mouse.
-- Make quit and relaunch feel seamless.
+- Make quit instant and relaunch restore the previous window state.
 - Adopt concentricity in views and buttons.

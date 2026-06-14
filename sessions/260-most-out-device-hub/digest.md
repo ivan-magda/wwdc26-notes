@@ -135,8 +135,8 @@ diagnostics:**
    workouts.
 3. **Mirror the configuration** — using the screenshot as ground truth, match the settings
    that affect UI: **landscape orientation** (rotate via device controls), **location =
-   Johannesburg** (Settings inspector → high elevation → long recovery string), and —
-   the missing piece — **text size all the way up**.
+   Johannesburg** (Settings inspector → high elevation → long recovery string), and,
+   finally, **text size all the way up**.
 
 The bug was a **confluence**: landscape **and** that location **and** maximum text size,
 all together, were needed to truncate. Device Hub let one engineer reproduce all of it on

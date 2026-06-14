@@ -12,8 +12,8 @@ compiled: 2026-06-10
 
 ## TL;DR
 
-"Advanced" SwiftUI graphics are not one big complicated API — they're ordinary
-modifiers wired together into a **creative pipeline**: each stage takes data in,
+"Advanced" SwiftUI graphics are ordinary modifiers wired together into a
+**creative pipeline**: each stage takes data in,
 transforms it, and passes it along; the output of one stage feeds the input of the
 next. Haotian (UI Frameworks) demonstrates by upgrading a bare-bones podcast
 transcript view into an Apple-Music-style "live lyrics" screen, built from four
@@ -48,7 +48,7 @@ merging the flows. "The advanced lies in the construction, not the complexity."
 Decomposing the target podcast design:
 
 - The existing UI already holds all the data needed: **cover art**, **playback
-  info**, **transcript text**. The question is not *what data* but *how to transform
+  info**, **transcript text**. The data is already there; the work is *transforming
   it*.
 - **Cover art → shader pipe → visualizer.** Merge in a **time pipe** so the
   visualizer animates with playback.

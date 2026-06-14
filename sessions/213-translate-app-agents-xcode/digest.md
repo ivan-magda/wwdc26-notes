@@ -12,9 +12,9 @@ compiled: 2026-06-10
 
 ## TL;DR
 
-Xcode 27 lets a coding agent translate your app's strings directly inside Xcode,
-and the headline isn't "an LLM translates strings" — general-purpose LLMs already
-do that. The headline is **context**. String Catalogs have been quietly
+Xcode 27 lets a coding agent translate your app's strings directly inside Xcode.
+General-purpose LLMs already translate strings; the interesting part here is that
+Xcode 27 feeds the agent **context**. String Catalogs have been quietly
 accumulating it for years (two years ago: *where* a string is used; last year:
 *how* it's used, for auto-generated comments). Xcode 27 feeds all of that into
 translation agents so they disambiguate things a context-blind model gets wrong

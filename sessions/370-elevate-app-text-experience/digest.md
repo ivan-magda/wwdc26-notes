@@ -12,12 +12,11 @@ compiled: 2026-06-10
 
 ## TL;DR
 
-For years, building text on Apple platforms forced a binary choice: take a framework
-text view (`UITextView`, `NSTextView`, `TextEditor`) and get input, selection,
-accessibility, undo/redo, dictation, and inline predictions for free — but with almost
-no control over how text is drawn — or drop down to raw TextKit and build a custom
-text view that gives total control but reimplements everything from scratch. This
-session closes that gap.
+For years, building text on Apple platforms meant choosing one of two paths. A
+framework text view (`UITextView`, `NSTextView`, `TextEditor`) gives you input,
+selection, accessibility, undo/redo, dictation, and inline predictions for free, but
+almost no control over how text is drawn. Raw TextKit gives total control but
+reimplements everything from scratch. This session closes that gap.
 
 Three headline changes in the 2027 releases:
 
@@ -159,7 +158,7 @@ struct TextViewRepresentable: UIViewRepresentable {
 #endif
 ```
 
-The key unlock: **starting with the 2027 releases, `UITextView` and `NSTextView`
+The key change: **starting with the 2027 releases, `UITextView` and `NSTextView`
 conform to `NSTextViewportLayoutControllerDelegate`.** Subclass and override the
 delegate methods to add behavior to the viewport layout process — always calling `super`
 first to preserve default text view behavior.

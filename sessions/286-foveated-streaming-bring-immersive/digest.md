@@ -228,8 +228,8 @@ frames**. Controller and hand tracking are already built in; use the alpha chann
 blend content with the environment.
 
 **RealityKit compositing** — add a `RealityView` to your `ImmersiveSpace` and native
-RealityKit content composes seamlessly with the stream. If you supply **depth** to the
-OpenXR scene, streamed and native content even **occlude each other**.
+RealityKit content composes with the stream in the same render pass. If you supply
+**depth** to the OpenXR scene, streamed and native content even **occlude each other**.
 
 ```swift
 import SwiftUI

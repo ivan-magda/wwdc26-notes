@@ -67,8 +67,8 @@ by default. The new placements add a layer on top of that, without replacing it.
   website visuals, and downloads **deep-link straight into the Yoga offering** — a
   consistent path from discovery to installation.
 - CPP can also show a **different asset per search keyword** for more relevant results.
-  Recommendation: keep the **header asset and the search-result asset consistent** for
-  a seamless customer experience.
+  Recommendation: keep the **header asset and the search-result asset consistent** so
+  the page and search look the same to customers.
 - **Product Page Optimization** — A/B test different visuals (logo vs. core value vs. a
   new feature) to see which your audience responds to best.
 

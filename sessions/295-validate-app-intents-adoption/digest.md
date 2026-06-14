@@ -28,7 +28,7 @@ Headline themes:
    `makeIntent(params).run()`, and assert on `result.value` via dynamic member lookup.
 4. **It scales up:** entity string queries (`entities(matching:)`), chaining intents
    the way Shortcuts compose them, **test-only intents** (`isDiscoverable = false` +
-   `#if DEBUG`) for seeding state, and — the real payoff — **system integrations**:
+   `#if DEBUG`) for seeding state, and **system integrations**:
    `spotlightQuery()` for Spotlight indexing and `viewAnnotations()` for what Siri
    sees on screen.
 5. **Recommended workflow:** unit-test the fundamental types first, then

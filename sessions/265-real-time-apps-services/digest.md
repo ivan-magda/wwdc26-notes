@@ -34,7 +34,7 @@ Four headline ideas:
    `swift:latest` → `swift:slim`) and deployed to **Google Cloud Run** with `--use-http2`,
    after which the client just flips `transportSecurity` from `.plaintext` to `.tls`.
 
-gRPC Swift isn't a toy: it already underpins Apple's open-source **Containerization**
+gRPC Swift already underpins Apple's open-source **Containerization**
 framework (host ↔ Linux VM over vsock), **Private Cloud Compute**, **iCloud Keychain/Photos**,
 **SharePlay file sharing**, and internal OS build/release infrastructure.
 
@@ -244,7 +244,7 @@ name, making a Protobuf message **roughly half the size of the equivalent JSON**
 matters most for **mobile apps on poor networks**, and it pays off equally in
 service-to-service and interprocess communication.
 
-That's not theoretical for Apple: gRPC Swift powers the open-source **Containerization**
+Apple ships this in production: gRPC Swift powers the open-source **Containerization**
 framework (host ↔ Linux VM over virtual sockets), and cloud services including **Private
 Cloud Compute**, **iCloud Keychain and Photos**, and **SharePlay file sharing**, plus
 internal OS build/release systems.

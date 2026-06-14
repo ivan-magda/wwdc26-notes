@@ -149,7 +149,7 @@ and a physical button toggles the digital light.
 
 ## 7. Building your own spatial accessory
 
-**The big unlock in visionOS 27: anyone can build one.**
+**New in visionOS 27: anyone can build one.**
 
 ### Design considerations
 

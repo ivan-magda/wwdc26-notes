@@ -26,7 +26,7 @@ Headline themes:
 2. **People in control, protected** — Agency (forgiveness, undo) balanced by Responsibility (privacy, safety, AI safeguards).
 3. **Build on what people already know** — Familiarity (metaphor + consistency) without recycling one solution everywhere → Flexibility.
 4. **Simplicity ≠ minimalism** — remove friction, not information; sometimes *add* context to be simpler.
-5. **Craft earns trust; Delight is the byproduct** — not confetti, but the natural result of getting everything else right.
+5. **Craft earns trust; Delight is the byproduct**: the natural result of getting everything else right.
 
 ---
 
@@ -45,7 +45,7 @@ has purpose.
 
 Important meta-point stated upfront: there is **no formula** that guarantees the
 perfect solution, and leaning into one principle can feel like compromising another.
-That tension is what makes design interesting — judgment and intuition do the rest.
+That tension is what makes design interesting; judgment and intuition do the rest.
 
 ## 2. Purpose
 
@@ -179,7 +179,7 @@ enriching, and create a real emotional connection — one that starts when an ex
 The key correction: **delight isn't confetti** or flourishes tacked on at the end. You
 create it by **identifying the emotion you want your audience to feel** — relaxed,
 confident, excited — and finding opportunities to reinforce that throughout the design.
-**Delight is the sum of the consideration you put in — the natural result of getting all
+**Delight is the sum of the consideration you put in: the natural result of getting all
 the other principles right.** Design with intention and care — agency to act, safety to
 explore, comfort of familiar patterns, the ability to make it their own — and you create
 an experience that's a true joy to use.

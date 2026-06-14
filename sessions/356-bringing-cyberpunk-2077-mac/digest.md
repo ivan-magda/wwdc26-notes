@@ -106,8 +106,8 @@ debug or profiling settings — the most reliable data.
   filled with traffic, crowds, and action.
 - Two patterns were **translation-environment artifacts**, not real problems:
   frame-time oscillation from **live shader translation**, and **audio middleware**
-  looking heavy. Both vanished on native binaries — and GPTK flagging them early meant
-  the team knew to investigate them during native implementation.
+  looking heavy. Both vanished on native binaries. Because GPTK flagged them early, the
+  team knew to investigate them during native implementation.
 
 ## 5. From signals to a production roadmap (08:00)
 

@@ -33,8 +33,8 @@ that ecosystem. Three pillars carry the whole talk:
 
 The scale is the headline: immersive video is roughly **32× the resolution** of a 2D
 broadcast (to match human visual acuity) at **2× the frame rate**, with audio mixes
-far beyond stereo or 5.1. Those numbers ripple through every stage, which is why a new
-workflow — not the traditional toolchain — was required.
+far beyond stereo or 5.1. Those numbers ripple through every stage, so the traditional
+toolchain doesn't work; immersive live needed a new workflow.
 
 ---
 

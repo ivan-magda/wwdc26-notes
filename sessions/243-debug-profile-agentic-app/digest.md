@@ -77,7 +77,7 @@ The Foundation Models instrument has **6 lanes**. Two carry the story:
 - **Instructions lane** — how long a given set of instructions+tools was active. One set can cover multiple requests. *In the buggy trace, only one instruction set was active for the entire session* — but the feature needs two, so the handoff failed.
 - **Model Inference lane** — **yellow bars** = time spent processing the input prompt; **orange bars** = time generating the response.
 
-### The tree view (where the real power is)
+### The tree view (the full request hierarchy)
 
 Everything logged during a recording is organized into a hierarchy:
 

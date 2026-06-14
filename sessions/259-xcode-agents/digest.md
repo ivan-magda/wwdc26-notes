@@ -33,7 +33,7 @@ phases, each a distinct way to work with agents:
    accessibility) and Xcode **auto-discovers tools** and dispatches **sub-agents** that
    run in parallel. Two conversations run at once.
 
-The recurring theme: you stay in the driver's seat. Agents accelerate the work; you
+The recurring theme: the developer keeps final say. Agents accelerate the work; you
 own the vision, the chart style, the plan, and the review.
 
 The new agent UI splits into two panes — **transcript** (left: conversation, progress,
@@ -145,9 +145,8 @@ for every change matters.
 - **Convey intent with a sketch** — Devin sketches a chart design in **Freeform on
   iPad**, then sends the sketch and asks for a line chart added to `InsightsView` matching
   the drawn style. The sketch is interpreted and translated into a matching chart.
-- **Preview self-verification loop** — agents don't just generate code and stop:
-  previews are **rendered incrementally to visually verify** the result matches the
-  request, with adjustments made before you step in.
+- **Preview self-verification loop** — previews are **rendered incrementally to visually
+  verify** the result matches the request, with adjustments made before you step in.
 - **Inline annotations** — Devin leaves two annotations directly in the chart view: one
   to add a **fade-in animation**, another to **adjust the trend-line color** to match the
   app theme. An annotation carries the **exact location** plus the **surrounding code as

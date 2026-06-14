@@ -71,8 +71,8 @@ Panel favorites, even if not brand-new:
 
 - **Vehicle motion cues**, now on visionOS and **spatialized** while wearing Vision Pro.
 - **Voice Control's AI natural-language on-screen description** ("a game changer").
-- **Built-in VoiceOver image descriptions** — described as a seamless flow: swipe up on an
-  image, use the VoiceOver custom action, double-tap, and get a description without leaving
+- **Built-in VoiceOver image descriptions** — described as a single in-app flow: swipe up on
+  an image, use the VoiceOver custom action, double-tap, and get a description without leaving
   the app for the share sheet or a separate AI model.
 
 ## Developer Q&A
@@ -262,7 +262,7 @@ and love it. The panel highlighted it as a closing thought.
 
 ## Unconventional facts & takeaways (the live-Q&A gold)
 
-- **VoiceOver-first is not a shortcut, it's the architecture.** Because Switch Control, Voice
+- **VoiceOver-first carries most of the other accessibility technologies.** Because Switch Control, Voice
   Control, and others read the same `isAccessibilityElement` / accessibility-label backend, a
   great VoiceOver pass genuinely covers most of the rest. Voice Control's incremental API
   surface is small; the per-technology API is "polish around the edges."

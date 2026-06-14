@@ -11,8 +11,8 @@ note: Group lab — no Apple transcript/Summary/Code tab. Transcript machine-gen
 # WWDC26 · 8018 — Camera and Photo Technologies Group Lab
 
 > A 59-minute live developer Q&A with a five-engineer panel from Apple's Camera and
-> Photos teams. Not a feature talk: it's the practical layer under the WWDC26 camera
-> sessions. Which framework to reach for, what the APIs actually guarantee, what's a
+> Photos teams. It's the practical layer under the WWDC26 camera sessions rather than a
+> feature talk. Which framework to reach for, what the APIs actually guarantee, what's a
 > deliberate limitation versus a bug, and a steady "file a Feedback Assistant request,
 > we actually read them." Heavy lean on existing sample code and on three or four
 > recorded sessions from this same week.

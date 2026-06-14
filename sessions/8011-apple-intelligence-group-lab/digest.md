@@ -11,8 +11,8 @@ note: Group lab — no Apple transcript/Summary/Code tab. Transcript machine-gen
 # WWDC26 · 8011 — Apple Intelligence Group Lab
 
 > A 64-minute live developer Q&A with a host plus five-engineer panel spanning App
-> Intents/Siri, Foundation Models, and Evaluations. Not a feature talk: it's the
-> unscripted layer under the WWDC26 Apple Intelligence sessions. The dominant thread is
+> Intents/Siri, Foundation Models, and Evaluations. Unscripted Q&A under the WWDC26
+> Apple Intelligence sessions rather than a polished feature talk. The dominant thread is
 > **App Schemas** for the new "Siri AI," with a strong second thread on the **Foundation
 > Models framework** (the on-device model, the new Private Cloud Compute server model,
 > the language model protocol, dynamic profiles) and the **Evaluations framework**. The
@@ -290,7 +290,7 @@ Asked by **MCRich23**. Highlights:
 - **No rate limiting on-device in the foreground.** Throttling only kicks in for
   **background** work under heavy system load, surfaced as a retriable rate-limited error.
 - **Image Playground is now PCC-only and online-only for photorealism** (`imagePlaygroundStyle.all`),
-  with **no on-device fallback** — a real behavior change to plan around.
+  with **no on-device fallback**. Plan for offline gaps.
 - **Semantic-index retrieval is strictly sandboxed to the donor app**, even for two apps
   from the same developer in the same app group. Cross-app sharing is an explicit opt-in via
   **Transferable**.

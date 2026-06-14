@@ -271,7 +271,7 @@ extension ContactEntity: Transferable {
 ```
 
 Rule of thumb: **if the content already exists, resolve it; if not, import it.** Many apps
-do both. Onscreen awareness + content transfer together unlock multi-step, cross-app
+do both. Onscreen awareness plus content transfer together enable multi-step, cross-app
 experiences — all built on entities, intents, and schemas.
 
 ## 7. Best practices — complete schema sets, enforced by Xcode (21:09)
@@ -314,5 +314,5 @@ A progressive ladder, narrow to broad:
 - Test early and often: AppIntentsTesting → Shortcuts → Spotlight → Siri.
 
 All APIs are available today and designed to scale as Siri evolves. Bringing your app to
-Siri isn't just voice support — it makes the app faster, more accessible, and easier to use
-across the system.
+Siri makes it faster, more accessible, and easier to use across the system, beyond voice
+control.

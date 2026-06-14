@@ -13,7 +13,7 @@ compiled: 2026-06-10
 ## TL;DR
 
 Core AI is **the inference engine that already runs on-device Apple Intelligence**,
-now exposed to third-party developers. It isn't a single API — it's a whole
+now exposed to third-party developers. Rather than a single API, it's a whole
 lifecycle toolkit: a Python/PyTorch conversion path, a memory-safe Swift runtime, an
 Xcode Instruments profiler, a visual numeric debugger, and a device-specialization
 system with ahead-of-time compilation. Headline themes:

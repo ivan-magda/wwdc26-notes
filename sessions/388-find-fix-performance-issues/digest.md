@@ -14,7 +14,7 @@ compiled: 2026-06-10
 
 A practical, end-to-end performance workflow for Metal games built around one
 problem: a smooth frame rate has to hold up across hours of play, through thermal
-shifts, settings changes, and level transitions — not just in a 30-second capture.
+shifts, settings changes, and level transitions, not just in a 30-second capture.
 Four headline pieces:
 
 1. **Always-on look-back collection.** In iOS/macOS 27 the system continuously
@@ -76,8 +76,8 @@ CPU samples. Start the game from Instruments or attach to a running session on a
 connected device, then hit record. Ideal for sessions of minutes or longer at your
 desk.
 
-**Always-on look-back collection (the powerful part).** While the game runs, the
-system is *always* recording and saving Metal performance + resource metrics —
+**Always-on look-back collection (no pre-session setup needed).** While the game
+runs, the system is *always* recording and saving Metal performance + resource metrics —
 aggregated and optional per-frame (CPU, GPU, FPS, memory) — efficiently stored and
 kept for **days**. So for a multi-hour session with many state changes, you can look
 back in time and collect data *after the fact*, locally, on macOS and iOS.

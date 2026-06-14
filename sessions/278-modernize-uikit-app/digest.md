@@ -32,8 +32,8 @@ assumptions into bugs. Four headline themes:
    this migration for you, exportable to other tools via `xcrun agent skills export`.
 
 The mental model the talk keeps returning to is Bruce Nilo's 2014 line: *"A device
-rotation is only an animated bounds change."* In iOS 27 that's no longer just rotation —
-it's every resize, on every screen.
+rotation is only an animated bounds change."* In iOS 27 it applies to every resize, on
+every screen, not just rotation.
 
 ---
 

@@ -89,7 +89,7 @@ Member by member:
 - **`playbackSnapshot`** — the current playback state (`.playing()` / `.paused`).
 - **`commands`** — an array of `MediaCommand`s, each a closure the system invokes when the user taps the corresponding control on a system surface. Tap pause on the Lock Screen → your `.pause` closure runs → the button flips to the paused state. Same for play / next.
 
-Conforming alone isn't enough — you connect to the system by constructing a **`MediaSession`** with the model, in the same place you set up your audio engine:
+Conforming is only half of it. To connect to the system, construct a **`MediaSession`** with the model, in the same place you set up your audio engine:
 
 ```swift
 import NowPlaying

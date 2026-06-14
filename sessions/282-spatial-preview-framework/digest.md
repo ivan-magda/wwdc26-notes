@@ -38,11 +38,12 @@ Real-world adopters named: **Cinema 4D** and **SketchUp**.
 ## 1. What Spatial Preview is
 
 Mac Virtual Display already lets you drive your Mac through a virtual screen on Vision
-Pro. Spatial Preview goes a step further: it extends *content* — not just a flat screen
-— from the Mac into the space around you. The new Preview app for Mac is the flagship
-adopter (3D content editing, photorealistic rendering, camera viewpoints, and spatial
-media output like Apple Immersive Video frames and spatial photos), but the same
-capability is a framework you can fold into new or existing macOS apps.
+Pro. Spatial Preview goes a step further: it extends the *content* itself from the Mac
+into the space around you, rather than only mirroring a flat screen. The new Preview app
+for Mac is the flagship adopter (3D content editing, photorealistic rendering, camera
+viewpoints, and spatial media output like Apple Immersive Video frames and spatial
+photos), but the same capability is a framework you can fold into new or existing macOS
+apps.
 
 The promise the talk keeps returning to: **no visionOS code required.** Quick Look on
 Vision Pro receives whatever your Mac app sends and provides the immersive viewer,
@@ -310,7 +311,7 @@ updating immediately — "eliminating the back and forth of traditional asset re
 
 ## 8. Getting started
 
-- Use the **USDKit Swift APIs**; Spatial Preview is built to work seamlessly with them.
+- Use the **USDKit Swift APIs**; Spatial Preview is built around them.
 - If your Mac app already has its own USD installation, set up **bridging** to transfer
   edits between it and USDKit.
 - Adopt the session type you need (document vs USD), layer in live editing, then turn on

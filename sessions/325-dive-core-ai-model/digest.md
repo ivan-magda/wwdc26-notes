@@ -131,10 +131,10 @@ Then compression:
 - `ExecutionMode.EAGER` for weight compression (use `GRAPH` mode for activations).
 - Init `Quantizer` with the config, pass example inputs, finalize.
 
-Result: the model drops to **~430MB** — but **one occluded flower is no longer detected.**
+Result: the model drops to **~430MB**, but **one occluded flower is no longer detected.**
 Aggressive uniform compression was applied to every layer, and not every layer handles it
-equally. Which layers are to blame? You can't tell from the output alone — you need to see
-inside. Enter the debugger.
+equally. The output alone doesn't show which layers broke; you need to inspect the
+model internally. That's what the Core AI Debugger does.
 
 ## 4. Core AI Debugger
 
@@ -262,7 +262,7 @@ and changed interfaces: a completely different source implementation. Techniques
 - **Predefined PyTorch patterns** that tell Core AI about a concept so it maps to an optimized
   runtime implementation — e.g. **in-place KV-cache updates** for LLMs.
 - For iOS specifically: **static tensor shapes, channels-first layouts, convolutional op
-  patterns** — these unlock powerful underlying primitives and meet on-device constraints.
+  patterns** — these let Core AI map to native hardware primitives and meet on-device constraints.
 - **Rigorous module- and model-level testing** (unit + integration). `coreai-models` ships
   reusable components and best-practice examples to start from, and Core AI Skills help the
   agent write Apple-Silicon-optimized PyTorch from day one.

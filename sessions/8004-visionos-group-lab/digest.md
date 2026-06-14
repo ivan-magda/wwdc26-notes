@@ -11,8 +11,8 @@ note: Group lab — no Apple transcript/Summary/Code tab. Transcript machine-gen
 # WWDC26 · 8004 — visionOS Group Lab
 
 > A 63-minute live developer Q&A with a six-person panel from the Vision Products
-> Group. Not a feature talk — it's the unscripted layer underneath the WWDC26
-> visionOS sessions: clarifications, the "why," current limits, and a near-constant
+> Group. This is the unscripted layer underneath the WWDC26 visionOS sessions,
+> not a feature talk: clarifications, the "why," current limits, and a near-constant
 > ask to **file feedback with concrete use cases**. Most features discussed are
 > first-version/beta, and the panel is openly using this hour to collect roadmap input.
 

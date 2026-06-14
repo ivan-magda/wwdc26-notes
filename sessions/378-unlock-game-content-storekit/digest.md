@@ -17,8 +17,8 @@ A 10-minute games-focused session from the StoreKit team, structured in three ac
 1. **Background Assets gets bigger and smarter.** Managed Background Assets download
    asset packs only when needed; Apple now hosts up to **200 GB per app**, included in
    the Developer Program. In **iOS 27**, **localized asset packs** ship only the
-   player's preferred-language assets, with a sensible fallback chain — a real
-   download/storage win for multilingual games. And `xcrun ba-package` can now
+   player's preferred-language assets, with a sensible fallback chain. For
+   multilingual games, that cuts download and storage size. And `xcrun ba-package` can now
    **convert Steam depots** into asset pack manifests/archives.
 2. **Two new Apple Unity plug-ins: Background Assets and StoreKit.** They expose C# APIs
    that bridge to the native frameworks, so Unity games can do In-App Purchase and

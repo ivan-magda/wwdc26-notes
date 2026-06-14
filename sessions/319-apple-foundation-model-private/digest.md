@@ -174,9 +174,9 @@ PrivateCloudComputeLanguageModel().contextSize
 
 ## 6. Choose by data, not vibes — and combine models
 
-Deciding between on-device vs PCC, and which reasoning level, should be **based on data,
-not vibes**. The updated on-device model "may surprise you" at certain tasks — but the
-only way to know is to evaluate.
+Decide between on-device vs PCC, and the reasoning level, by **measuring with the
+Evaluations framework rather than guessing**. The updated on-device model "may surprise
+you" at certain tasks — but the only way to know is to evaluate.
 
 - The new **Evaluations framework** (Swift, Xcode-integrated) measures the quality of a
   specific Foundation Models feature → see **"Meet the Evaluations framework."**

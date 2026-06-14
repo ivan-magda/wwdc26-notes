@@ -12,10 +12,10 @@ compiled: 2026-06-10
 
 ## TL;DR
 
-This year's WebKit story is **quality, not quantity**. The team deliberately put
-its effort into fixing and refining existing web-platform features rather than
-shipping a flood of new ones — **over 1,100 fixes and improvements since last
-fall**, which Jen Simmons calls a record. The first beta of Safari 27 still ships
+This year WebKit prioritized **quality**: the team put its effort into fixing and
+refining existing web-platform features rather than shipping a flood of new ones —
+**over 1,100 fixes and improvements since last fall**, which Jen Simmons calls a
+record. The first beta of Safari 27 still ships
 **60+ new features** on top of that.
 
 Two halves to the talk:

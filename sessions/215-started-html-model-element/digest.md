@@ -45,7 +45,7 @@ the same markup working across all Apple platforms in Safari.
 
 Versus the familiar **`model-viewer`** JavaScript library: `<model>` needs no extra
 library, is rendered directly by the platform, gets built-in **stereoscopic rendering**
-on visionOS, and — as an emerging web standard — keeps your code future-proof. A
+on visionOS, and, as an emerging web standard, tracks toward broad browser support. A
 **polyfill** covers browsers that don't yet support it natively (covered below).
 
 ## 2. Preparing a USDZ asset

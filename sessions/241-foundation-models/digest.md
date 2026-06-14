@@ -63,7 +63,7 @@ let response = try await session.respond {
 
 - **32,000-token** context window.
 - **Reasoning** capability (model thinks before answering).
-- No account setup, no auth, no API keys — seamless. Prompts are never stored; independently verifiable.
+- No account setup, no auth, and no API keys to manage. Prompts are never stored; independently verifiable.
 - Brings Foundation Models to **watchOS 27**.
 - **Pricing:** no cloud API cost for developers with **< 2M first-time downloads**. End users get a daily PCC allowance; **iCloud+** subscribers get a higher limit.
 - Needs an **entitlement** — see **"Building with Private Cloud Compute."**

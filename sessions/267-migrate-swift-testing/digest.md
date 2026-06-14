@@ -22,7 +22,7 @@ Four themes:
 1. **Incremental migration, zero pressure** — leave existing XCTests where they are; write *new* tests in Swift Testing today (just not inside an `XCTestCase` class); migrate the rest a few at a time.
 2. **Interoperability + its four modes** — Limited / Complete / Strict / None control how cross-framework issues from XCTest are reported (warning → error → fatal → silenced). Complete is the new default for Xcode 27 test plans. Issues going the *other* direction (Swift Testing API in an XCTest) are always errors.
 3. **Common migration patterns** — `XCTFail` → `Issue.record`, `XCTSkip` → `Test.cancel` or `.enabled(if:)` traits, `continueAfterFailure = false` → `#require`.
-4. **Swift Testing superpowers** — parameterized tests (`@Test(arguments:)`, parallel, per-case results) and exit tests (`#expect(processExitsWith:)`, crash paths in a child process).
+4. **Swift Testing-only features** — parameterized tests (`@Test(arguments:)`, parallel, per-case results) and exit tests (`#expect(processExitsWith:)`, crash paths in a child process).
 
 Demo app: a bird-training / fruit-delivery app whose `Fruit` and `Bird` types get migrated.
 
